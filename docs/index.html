@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CyberLearn Academy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>CyberLearn Academy</h1>
+<p>Your Interactive Cybersecurity Learning Platform</p>
+
+<!-- ================= DASHBOARD ================= -->
+
+<section>
+<h2>📚 Module 1: Cybersecurity Fundamentals</h2>
+
+<h3>What is Cybersecurity?</h3>
+<p>Cybersecurity is the protection of systems, networks and data from digital attacks.</p>
+
+<h3>CIA Triad</h3>
+<ul>
+<li>Confidentiality</li>
+<li>Integrity</li>
+<li>Availability</li>
+</ul>
+
+<h3>Common Attacks</h3>
+<ul>
+<li>Phishing</li>
+<li>Malware</li>
+<li>Ransomware</li>
+<li>Brute Force</li>
+</ul>
+</section>
+
+<!-- ================= PRACTICAL ================= -->
+
+<section>
+<h2>🧪 Practical Lab: Password Strength</h2>
+
+<input type="text" id="password" placeholder="Enter password">
+<button onclick="checkPassword()">Check</button>
+
+<p id="result"></p>
+</section>
+
+<!-- ================= QUIZ ================= -->
+
+<section>
+<h2>📝 Quick Quiz</h2>
+
+<p>Which one ensures data is not modified?</p>
+
+<button onclick="checkAnswer('Integrity')">Integrity</button>
+<button onclick="checkAnswer('Speed')">Speed</button>
+
+<p id="quiz"></p>
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
